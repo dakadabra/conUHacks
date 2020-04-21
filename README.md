@@ -1,27 +1,22 @@
-# conuHacks
+MindSpace
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+## Inspiration
+Many people feel unhappy or dissatisfied on their daily job. This may be due to conflict with coworkers, bullying, overwork, feeling unchallenged at work and many others reasons. As a team, we felt compelled to try to tackle this issue by creating a platform where employees can self-reflect on a daily basis and share the information with coworkers and managers.
 
-## Development server
+## What it does
+We created a platform where employees could share their feelings on work related issues on a daily basis. The employee would share their day in 3 words. A picture would be assigned on that specific day that's related to a way for employee to share their mind of work related stress as a personal debrief. At the end of each week, employees can go over their week with their managers, so that they can understand each others' experiences and build stronger relationships.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How I built it
+We built the application using Angular (html, css, typescript) for our front-end. We also utilized computer vision through the Shutterstock API to get relevant images based on the keywords that the user entered.
 
-## Code scaffolding
+## Challenges I ran into
+Most of us had never worked with Angular before so we had to learn how things are done in the language. In addition, we spent a fair amount of time in trying to understand Shutterstock API and integrating it in our codebase.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Accomplishments that I'm proud of
+Utilizing a Shutterstock API to help describe and communicate one's day to others. After all, a picture is worth a thousand words!
 
-## Build
+## What I learned
+How to build a standalone Angular application, and to integrate API calls into it. We also learned a lot about teamwork, especially how to best delegate roles based on our individual strengths. After a big of struggling, we were able to get organized and work together in an efficient way.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## What's next for Mind Space
+Hopefully it can be implemented into the workplace soon, as it's very lightweight and can have significant upside in bridging the divide between managers and their employees. We think that it could greatly improve the mental health of people in the workforce by helping relieve some stress, and help everyone understand each other a little better.
